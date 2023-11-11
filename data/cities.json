@@ -3,7 +3,7 @@
     {
       "cityName": "Lisbon",
       "country": "Portugal",
-      "emoji": "🇵🇹",
+      "emoji": "https://flagemoji.net/img/flags/portugal-flag.png",
       "date": "2027-10-31T15:59:59.138Z",
       "notes": "My favorite city so far!",
       "position": {
@@ -15,7 +15,7 @@
     {
       "cityName": "Madrid",
       "country": "Spain",
-      "emoji": "🇪🇸",
+      "emoji": "https://flagemoji.net/img/flags/spain-flag.png",
       "date": "2027-07-15T08:22:53.976Z",
       "notes": "",
       "position": {
@@ -27,7 +27,7 @@
     {
       "cityName": "Berlin",
       "country": "Germany",
-      "emoji": "🇩🇪",
+      "emoji": "https://flagemoji.net/img/flags/germany-flag.png",
       "date": "2027-02-12T09:24:11.863Z",
       "notes": "Amazing 😃",
       "position": {
