@@ -10,3 +10,14 @@
   align-content: start;
   gap: 1.6rem;
 }
+
+
+.countryList::-webkit-scrollbar {
+  display: none;
+}
+
+.countryList {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
