@@ -9,6 +9,19 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+   
+}
+
+.city::-webkit-scrollbar {
+  display: none;
+}
+
+
+.city img{
+  width: 60px;
+  height: 40px;
+
 }
 
 .row {
@@ -45,3 +58,5 @@
   font-size: 1.6rem;
   color: var(--color-brand--1);
 }
+
+
