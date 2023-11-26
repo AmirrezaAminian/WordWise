@@ -37,3 +37,9 @@
 :global(.leaflet-popup-content-wrapper) {
   border-left: 5px solid var(--color-brand--2);
 }
+
+
+span img{
+  width: 20px;
+  height: 15px;
+}
