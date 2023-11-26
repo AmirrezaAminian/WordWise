@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 import styles from "./CityItem.module.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
 
 const formatDate = (date) =>
@@ -19,7 +19,7 @@ export default function CityItem({ city }) {
   return (
     <li>
       <Link
-        className={`${styles.cityItem} ${
+        className={`${styles.cityItem}  ${
           id === currentCity.id ? styles["cityItem--active"] : ""
         }`}
         to={`${id}?lat=${position.lat}&lng=${position.lng}`}
