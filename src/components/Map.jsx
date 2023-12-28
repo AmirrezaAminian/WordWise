@@ -13,22 +13,22 @@ import {
 import Button from "./Button";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
+import { UserUrlPosition } from "../hooks/userUrlposition";
 
 function Map() {
   const { cities } = useCities();
 
   const [mapPosition, setMapPosition] = useState([40, 0]);
 
-  const [searchParams, setSearchParams] = useSearchParams();
-
+  
   const {
     isLoading: isLoadingPosition,
     position: geoloacationPosition,
     getPosition,
   } = useGeolocation();
-
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  
+  const [mapLat , mapLng] = UserUrlPosition()
+  
 
   useEffect(
     function () {
